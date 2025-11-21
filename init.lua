@@ -275,7 +275,8 @@ require('lazy').setup({
   require 'custom.plugins.shadow-nvim',
   require 'custom.plugins.treesitter',
   require 'custom.plugins.autopairs',
-
+  require 'custom.plugins.lsp',
+  require 'custom.plugins.cmp',
   -- init.lua:
   require 'custom.plugins.telescope',
 
