@@ -272,7 +272,12 @@ require('lazy').setup({
   --
   require 'custom.plugins.web-devicons',
   require 'custom.plugins.nvim-tree',
+
+  --THESE BELOW ARE COLORSCHEMES FOR MY NEOVIM SETUP
   require 'custom.plugins.shadow-nvim',
+  require 'custom.plugins.kanagawa-paper',
+
+  --THESE ARE OTHER PLUGINS TO MAKE CODING EASIER
   require 'custom.plugins.treesitter',
   require 'custom.plugins.autopairs',
   require 'custom.plugins.lsp',
@@ -937,7 +942,7 @@ require('lazy').setup({
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-      vim.cmd.colorscheme 'tokyonight'
+      vim.cmd.colorscheme 'kanagawa-paper-ink'
     end,
   },
 
@@ -1016,11 +1021,11 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  -- require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
-  -- require 'kickstart.plugins.lint',
-  -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+  --require 'kickstart.plugins.debug',
+  --require 'kickstart.plugins.indent_line',
+  require 'kickstart.plugins.lint',
+  --require 'kickstart.plugins.autopairs',
+  require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
