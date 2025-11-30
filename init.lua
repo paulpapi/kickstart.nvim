@@ -281,7 +281,8 @@ require('lazy').setup({
   require 'custom.plugins.autopairs',
   require 'custom.plugins.lsp',
   require 'custom.plugins.cmp',
-  -- init.lua:
+  require 'custom.plugins.bufferline',
+
   require 'custom.plugins.telescope',
 
   -- Alternatively, use `config = function() ... end` for full control over the configuration.
