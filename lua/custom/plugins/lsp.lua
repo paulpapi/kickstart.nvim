@@ -17,6 +17,7 @@ return {
       require('mason').setup()
       require('mason-lspconfig').setup {
         ensure_installed = {
+          'omnisharp',
           'rust_analyzer',
           'tsserver',
           'jsonls',

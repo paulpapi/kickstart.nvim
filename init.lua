@@ -270,9 +270,6 @@ require('lazy').setup({
   --
   --
   -- THESE ARE THE PLUGINS I ADDED BY MYSELF THAT I AM VERY PROUD OF
-  --
-  --
-  --
   require 'custom.plugins.web-devicons',
 
   --THESE BELOW ARE COLORSCHEMES FOR MY NEOVIM SETUP
@@ -280,11 +277,11 @@ require('lazy').setup({
   require 'custom.plugins.kanagawa-paper',
 
   --THESE ARE OTHER PLUGINS TO MAKE CODING EASIER
-  require 'custom.plugins.treesitter',
   require 'custom.plugins.autopairs',
   require 'custom.plugins.lsp',
   require 'custom.plugins.cmp',
   require 'custom.plugins.bufferline',
+  require 'custom.plugins.treesitter',
 
   require 'custom.plugins.telescope',
 
